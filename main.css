@@ -635,6 +635,28 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
+		.gem{
+			top: 15px;
+			width: 40px;
+			height: 40px;
+		}
+		.link{
+			object-fit: contain;
+			width: 25px;
+			height: 25px;
+			padding-top: 8px;
+			padding-bottom: 2px;
+			padding-left: 3px;
+		}
+
+		.git{
+			object-fit: contain;
+			width: 25px;
+			height: 25px;
+			padding-top: 8px;
+			padding-bottom: 2px;
+			margin-top: 0px;
+		}
 /* Image */
   
 .mine{
