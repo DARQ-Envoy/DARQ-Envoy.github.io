@@ -1,37 +1,51 @@
 const styles=document.querySelector(".styles");
 const contain=document.querySelector(".contain");
 const projects=[
-       {
-    image:"desktop-screenshot",
-    text:"Easybank Landing Page",
-    link:"https://darq-envoy.github.io/Easy-bank/",
-   repo: "https://github.com/DARQ-Envoy/Easy-bank",
+
+   {
+      image:"E-commerce_Page",
+      text:"A Functional E-commerce Webpage",
+      link:"https://darq-envoy.github.io/e_commerce_webpage/",
+     repo: "https://github.com/DARQ-Envoy/e_commerce_webpage",
+  },
+  {
+   image:"desktop-screenshot",
+   text:"Easybank Landing Page",
+   link:"https://darq-envoy.github.io/Easy-bank/",
+  repo: "https://github.com/DARQ-Envoy/Easy-bank",
 }, 
 {
-    image:"time-tracking-dashboard",
-    text:"A Time Tracking Dashboard",
-    link:"https://darq-envoy.github.io/Time-Tracking-Dashboard/",
-   repo: "https://github.com/DARQ-Envoy/Time-Tracking-Dashboard",
+    image:"MetaFetch_Landing_page",
+    text:"The Landing Page for MetaFetch",
+    link:"https://darq-envoy.github.io/MetaFetch-Landing-Page/",
+   repo: "https://github.com/DARQ-Envoy/MetaFetch-Landing-Page",
 },
 {
-    image:"Search-Filter",
-    text:"A User Search-Filter",
-    link:"https://darq-envoy.github.io/search-filter/",
-   repo: "https://github.com/DARQ-Envoy/search-filter",
-}
-,
+   image:"huddle_landing_page",
+   text:"Huddle Landing Page",
+   link:"https://darq-envoy.github.io/Huddle-Home-page/",
+  repo: "https://github.com/DARQ-Envoy/Huddle-Home-page",
+},
+
  {
-    image:"interactive-comment",
-    text:"Interactive comments UI",
-    link:"https://darq-envoy.github.io/interactive-comment/",
-   repo: "https://github.com/DARQ-Envoy/interactive-comment",
+    image:"MetaFetch_Convert",
+    text:"The Convert File Page for MetaFetch",
+    link:"https://darq-envoy.github.io/Metafetch_Convert_Page/",
+   repo: "https://github.com/DARQ-Envoy/Metafetch_Convert_Page",
 },
 {
-    image:"interactive-pricing",
-    text:"Interactive-pricing UI",
-    link:"https://darq-envoy.github.io/interactive-pricing/",
-   repo: "https://github.com/DARQ-Envoy/interactive-pricing",
-} 
+    image:"Social_Page",
+    text:"Social Media Dashboard",
+    link:"https://darq-envoy.github.io/Social_Media_Dashboard/",
+   repo: "https://github.com/DARQ-Envoy/Social_Media_Dashboard",
+},
+{
+   image:"Creatives_page",
+   text:"Sunnyside Landing Page",
+   link:"https://darq-envoy.github.io/Sunny_side_Landing_page/",
+  repo: "https://github.com/DARQ-Envoy/Sunny_side_Landing_page",
+}
+
 ]
 projects.forEach(work=>{
 const mySpan=document.createElement('span');
